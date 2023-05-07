@@ -1,126 +1,94 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <title>Aprenda Modelagem de Produtos</title>
-    <style>
-	@media screen and (min-width: 801px) {
-   iframe {
-      width: 60%;
-      height: 60%;
-      margin: auto;
-      display: block;
-   }
-}
-	@media screen and (max-width: 800px) {
-  .headline {
-    font-size: 100px; /* altere o valor conforme necessário */
-    line-height: 1.2; /* ajuste o valor conforme necessário */
-  }
-  
-  .subtitulo {
-    font-size: 60px; /* altere o valor conforme necessário */
-    line-height: 1.5; /* ajuste o valor conforme necessário */
-  }
-}
-	
-	a {
-    color: #ffd700; /* define a cor amarelo dourado para os links */
-    text-decoration: none; /* remove o sublinhado */
-}
-	
-      /* Fundo da página */
-      body {
-        background-color: #0c1b3e;
-       /* background-image: url('https://ricocominternet.online/wp-content/uploads/2021/02/BG-1.png'); */
-        background-repeat: repeat-y;
-        background-position: center;
-        background-size: cover;
-		
-      }
+<html lang="pt-BR" dir="ltr">
+<head>
+<meta name="robots" content="index, follow">
+<link rel="shortcut icon" href="data:" />
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://segredodigital.ricocominternet.online">
+<meta property="og:title" content="Aprenda Modelagem de Produtos">
+<meta property="og:description" content="Aprenda Modelagem de Produtos">
+<meta charset="utf-8">
 
-      /* Contador Regressivo */
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+<title>Aprenda Modelagem de Produtos</title>
+<style>.items-center{align-items:center}.grid-cols-6{grid-template-columns: repeat(6, minmax(0, 1fr))}.grid-cols-5{	grid-template-columns: repeat(5, minmax(0, 1fr))}.grid-cols-4{grid-template-columns: repeat(4, minmax(0, 1fr))}.grid-cols-2{grid-template-columns: repeat(2, minmax(0, 1fr))}.grid-cols-3{grid-template-columns: repeat(3, minmax(0, 1fr))}.grid-cols-1{grid-template-columns: repeat(1, minmax(0, 1fr))}.grid{display:grid}.basis-1\/2{flex-basis:50%}.flex{display:flex}.gap-1{gap:4px}.gap-2{gap:8px}.gap-4{gap:16px}.gap-6{gap:24px}.gap-12{48px}.gap-24{gap:96px}.justify-center{justify-content:center}.basis-full{flex-basis:100%}html{scroll-behavior:smooth;-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;-webkit-tap-highlight-color:transparent}body,center,dd,del,div,dt,em,footer,h1,h2,h3,h4,h5,h6,i,iframe,img,p,q,s,small,span,strike,strong,sub,sup,table,tbody,td,tr,u{margin:-1px 0 0 0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;font-family:Arial,sans-serif}.u{-moz-user-select:none;-webkit-user-select:none;cursor:default}table{border-collapse:collapse;border-spacing:0}body{line-height:1}body{background-color:#ffffff;overflow-x:hidden}iframe,img,svg{max-width:100%}h1,h1 b,h1 span,h2,h2 b,h2 span,h3,h3 b,h3 span{font-family:Poppins,sans-serif}a{text-decoration:none;font-family:Helvetica,Arial,sans-serif}a.btn{font-family:Montserrat,sans-serif}em span.lg,em span.md,em span.sm{font-style:italic}@media (max-width:600px){.flex-large,.flex-small{margin-right:0!important;margin-bottom:16px}}.flexrow{display:flex;flex-direction:row;flex-wrap:wrap;align-items:center}.flex-large,.flex-small{flex-basis:100%}.flex-large:last-child,.flex-small:last-child{margin-right:0!important}@media (min-width:600px){.flex-small{flex:1;margin-bottom:0!important;padding-bottom:0!important}.flex-small.half{flex:0 0 calc(1 / 2 * 100%)}.flex-small.one-fifth{flex:0 0 calc(1 / 5 * 100%)}.flex-small.two-fifths{flex:0 0 calc(2 / 5 * 100%)}.flex-small.one-fourth{flex:0 0 calc(1 / 4 * 100%)}.flex-small.two-fourths{flex:0 0 calc(2 / 4 * 100%)}.flex-small.three-fourths{flex:0 0 calc(3 / 4 * 100%)}.flex-small.one-third{flex:0 0 calc(1 / 3 * 100%)}.flex-small.two-thirds{flex:0 0 calc(2 / 3 * 100%)}}@media (min-width:1000px){.flex-large{flex:1;margin-bottom:0}.flex-large.half{flex:0 0 calc(1 / 2 * 100%)}.flex-large.one-fifth{flex:0 0 calc(1 / 5 * 100%)}.flex-large.two-fifths{flex:0 0 calc(2 / 5 * 100%)}.flex-large.one-fourth,.flex-large.two-fourths{flex:0 0 calc(1 / 4 * 100%)}.flex-large.three-fourths{flex:0 0 calc(3 / 4 * 100%)}.flex-large.one-third{flex:0 0 calc(1 / 3 * 100%)}.flex-large.two-thirds{flex:0 0 calc(2 / 3 * 100%)}}@media (min-width:640px){.sm\:gap-1{gap:6px}.sm\:gap-2{gap:12px!important}.sm\:gap-4{gap:24px}.sm\:gap-6{gap:32px}.sm\:gap-12{gap:64px}.sm\:gap-24{gap:128px}.sm\:grid-cols-6{grid-template-columns:repeat(6,minmax(0,1fr))}.sm\:grid-cols-5{grid-template-columns:repeat(5,minmax(0,1fr))}.sm\:grid-cols-4{grid-template-columns:repeat(4,minmax(0,1fr))}.sm\:grid-cols-2{grid-template-columns:repeat(2,minmax(0,1fr))}.sm\:grid-cols-3{grid-template-columns:repeat(3,minmax(0,1fr))}.sm\:grid-cols-1{grid-template-columns:repeat(1,minmax(0,1fr))}}
+
+/* Contador Regressivo */
       #contador-regressivo {
         background-color: #ffdc0c;
         text-align: center;
         padding: 10px;
-        font-size: 38px;
+        
         font-weight: bold;
       }
-
-      /* Headline */
-      .headline {
-        color: #ffd700;
-        font-size: 90px;
-        font-weight: bold;
-        text-align: center;
-        margin-top: 100px;
-        margin-bottom: 20px;
-      }
-
-      /* Subtítulo */
-      .subtitulo {
-        color: #fff;
-        font-size: 48px;
-        font-weight: bold;
-        text-align: center;
-        margin-bottom: 50px;
-      }
-      
-      video {
-  display: block;
-  margin: 0 auto;
-  max-width: 100%;
+	  
+	  @media screen and (max-width: 767px) {
+#contador-regressivo {
+font-size: 14px;
+padding: 5px;
 }
-	.video-container {
-  position: relative;
-  padding-top: 56.25%;
-  width: 100%;
-}  
-	   .botao-venda {
-    position: absolute;
-  bottom: 20px;
-  left: 50%;
-  transform: translateX(-50%);
-  margin-top: 20px;
-  background-color: #32CD32;
-  color: #fff;
-  padding: 20px 40px;
-  border: none;
-  border-radius: 50px;
-  font-size: 50px;
-  cursor: pointer;
-  transition: all 0.3s ease-in-out;
-}
-.btn-animado {
-  transition: background-color 0.2s ease-in-out;
 }
 
-.btn-animado:hover {
-  background-color: #deff00;
-  color: #000;
-} 
-      /* Estilo dos depoimentos */
-      .depoimentos {
-        width: 100%;
-        height: 400px;
-        background-color: #fff;
-        margin-bottom: 50px;
-      }
-      
-      /* Estilo do rodapé */
-      footer {
-  color: white;
-  opacity: 0.8;
-  padding: 20px 0;
+@media screen and (min-width: 768px) {
+#contador-regressivo {
+font-size: 24px;
+padding: 10px;
 }
-.px-1{padding-left:4px;padding-right:4px}.pt-0.5{padding-top:2px}.mt-4{margin-top:16px}@media (min-width:640px){.sm\:text-sm{font-size:24px;line-height:30px}}.mt-2{margin-top:8px}.mb-2{margin-bottom:8px}.flex{display:flex}.w-full{width:100%}.space-x-1>:not([hidden])~:not([hidden]){margin-left:.25rem}.items-center{align-items:center}.font-\[Helvetica\]{font-family:Helvetica,Arial,sans-serif}.cursor-pointer{cursor:pointer}.rounded-full{border-radius:99999px}.h-12{height:48px}.w-12{width:48px}.flex-col{flex-direction:column}.py-1{padding-top:4px;padding-bottom:4px}.px-3{padding-left:12px;padding-right:12px}.pl-0\.5,.px-0\.5{padding-left:2px}.rounded-\[18px\]{border-radius:18px}.bg-stone-100{background-color:#f5f5f4}.px-0\.5{padding-right:2px}.font-semibold{font-weight:600}.text-\[\#365899\]{color:#365899}.text-\[13px\]{font-size:20px}.leading-4{line-height:16px}.hover\:underline:hover{text-decoration-line:underline}.text-sm{font-size:14px}.relative{position:relative}.justify-between{justify-content:space-between}.grow{flex-grow:1}.text-xs{font-size:12px}.text-\[\#90949c\]{color:#90949c}.ml-px{margin-left:1px}.gap-1{gap:4px}.w-fit{width:fit-content}.hidden{display:none}.-mt-1{margin-top:-4px}.-mt-2{margin-top:-8px}.mr-2{margin-right:8px}.h-4,.h-5{height:16px}.drop-shadow{--tw-drop-shadow:drop-shadow(0 1px 2px rgba(0, 0, 0, 0.1)) drop-shadow(0 1px 1px rgba(0, 0, 0, 0.06));filter:var(--tw-drop-shadow)}.bg-slate-50{background-color:#f8fafc}.py-0\.5{padding-top:2px;padding-bottom:2px}.pr-1{padding-right:4px}.block{display:block}.w-4{width:16px}.z-10{z-index:10}.-ml-1{margin-left:-4px}.ml-4{margin-left:16px}.gap-x-0\.5{column-gap:2px}.mr-0\.5{margin-right:2px;margin-left:2px}.border-l{border-left-width:1px}.border-slate-300.border-dotted{border-style:dotted}.ml-5{margin-left:20px}.h-8{height:32px}.w-8{width:32px}.h-10{height:40px}.w-10{width:40px}@media (min-width:640px){.sm\:w-16{width:64px}.sm\:ml-12{margin-left:48px}}.pl-2{padding-left:8px}</style>
+}
+.gYDRBY1376270 {display: none}
+@media (max-width: 640px) {
+html {overflow-x:hidden}
+}
 
 
-    </style>
-	
-	<!-- Modifique o Timer do topo do site trocando a data final apenas -->
-	<script>
+</style>
+<style>.px-1{padding-left:4px;padding-right:4px}.pt-0.5{padding-top:2px}.mt-4{margin-top:16px}@media (min-width:640px){.sm\:text-sm{font-size:14px;line-height:20px}}.mt-2{margin-top:8px}.mb-2{margin-bottom:8px}.flex{display:flex}.w-full{width:100%}.space-x-1>:not([hidden])~:not([hidden]){margin-left:.25rem}.items-center{align-items:center}.font-\[Helvetica\]{font-family:Helvetica,Arial,sans-serif}.cursor-pointer{cursor:pointer}.rounded-full{border-radius:99999px}.h-12{height:48px}.w-12{width:48px}.flex-col{flex-direction:column}.py-1{padding-top:4px;padding-bottom:4px}.px-3{padding-left:12px;padding-right:12px}.pl-0\.5,.px-0\.5{padding-left:2px}.rounded-\[18px\]{border-radius:18px}.bg-stone-100{background-color:#f5f5f4}.px-0\.5{padding-right:2px}.font-semibold{font-weight:600}.text-\[\#365899\]{color:#365899}.text-\[13px\]{font-size:13px}.leading-4{line-height:16px}.hover\:underline:hover{text-decoration-line:underline}.text-sm{font-size:14px}.relative{position:relative}.justify-between{justify-content:space-between}.grow{flex-grow:1}.text-xs{font-size:12px}.text-\[\#90949c\]{color:#90949c}.ml-px{margin-left:1px}.gap-1{gap:4px}.w-fit{width:fit-content}.hidden{display:none}.-mt-1{margin-top:-4px}.-mt-2{margin-top:-8px}.mr-2{margin-right:8px}.h-4,.h-5{height:16px}.drop-shadow{--tw-drop-shadow:drop-shadow(0 1px 2px rgba(0, 0, 0, 0.1)) drop-shadow(0 1px 1px rgba(0, 0, 0, 0.06));filter:var(--tw-drop-shadow)}.bg-slate-50{background-color:#0c1b3e}.py-0\.5{padding-top:2px;padding-bottom:2px}.pr-1{padding-right:4px}.block{display:block}.w-4{width:16px}.-ml-1{margin-left:-4px}.ml-4{margin-left:16px}.gap-x-0\.5{column-gap:2px}.mr-0\.5{margin-right:2px;margin-left:2px}.border-l{border-left-width:1px}.border-slate-300{border-color:#cbd5e1}.border-dotted{border-style:dotted}.ml-5{margin-left:20px}.h-8{height:32px}.w-8{width:32px}.h-10{height:40px}.w-10{width:40px}@media (min-width:640px){.sm\:w-16{width:64px}.sm\:ml-12{margin-left:48px}}.pl-2{padding-left:8px}</style>
+<div class="division-1657813287709__wrapper">
+<style>
+#division-1657813287709 {
+position: relative;
+padding: 2vh 20vw 2vh 20vw;
+background-color: #0b00ff;
+}
+@media (max-width:1200px) {
+#division-1657813287709 {
+padding: 1.5vh 15vw 1.5vh 15vw;
+}
+}
+@media (max-width:600px) {
+#division-1657813287709 {
+padding: 0.75vh 1.5vw 0.75vh 1.5vw;
+}
+}
+
+.text-16578133316969nqkcl-element p {
+font-size: 1.32vw;
+text-align: center;
+padding-top: 1vh;
+padding-bottom: 1vh;
+color: #ffffff;
+line-height: 1.1;
+font-weight: 600;
+false
+}
+@media (max-width: 1200px) {
+.text-16578133316969nqkcl-element p {
+font-size: 1.80vw;
+padding-top: 0.75vh;
+padding-bottom: 0.75vh;
+}
+}
+@media (max-width: 640px) {
+.text-16578133316969nqkcl-element p {
+font-size: 4.00vw;
+padding-top: 0.75vh;
+padding-bottom: 0.75vh;
+text-align: center;
+}
+}
+</style>
+
+<script>
  var hoje = new Date();
 var dataFinal = new Date(hoje.getFullYear(), hoje.getMonth(), hoje.getDate() + 1).getTime();
 
@@ -146,76 +114,577 @@ var x = setInterval(function() {
 
 
 </script>
-	
-  </head>
 
-  <body>
-    <!-- Contador Regressivo -->
+
+</head>
+<body>
+
+
+<div class="text-16578133316969nqkcl-element text">
+<!-- Contador Regressivo -->
     <div id="contador-regressivo">
-      Faltam <span id="contador-promocao"></span> horas para encerrar essa promoção!
+      Faltam <span id="contador-promocao"></span>horas para encerrar essa Oferta!
     </div>
+</div>
+</div>
+</div>
+</div>
+<div class="division-1657813536866__wrapper">
+<style>
+#division-1657813536866 {
+position: relative;
+padding: 3vh 20vw 1vh 20vw;
+background-color: #0c1b3e;
+}
+@media (max-width:1200px) {
+#division-1657813536866 {
+padding: 2.25vh 15vw 0.75vh 15vw;
+}
+}
+@media (max-width:600px) {
+#division-1657813536866 {
+padding: 1.5vh 1.5vw 0.001vh 1.5vw;
+}
+}
+</style>
+<div id="division-1657813536866" class="jhijwS1340121">
+<div class="headline-MrKWGi5117209">
+<style>
 
-    <!-- Headline -->
-    <h1 class="headline">
-"Todo Infoprodutor deveria assistir essa VSL de 4 minutos até o final...</h1>
+@media screen and (max-width: 767px) {
+  .headline {
+    font-size: 22px;
+  }
+}
 
-    <!-- Subtítulo -->
-    <h2 class="subtitulo">Isso é exatamente o que seu professor de Marketing Digital não te conta</h2>
+@media screen and (min-width: 768px) {
+  .headline {
+    font-size: 48px;
+  }
+}
 
-    <!-- Espaço para o vídeo -->
-    <!-- Subtitua apenas o Iframe -->
-	<div style="position:relative;padding-top:56.25%;width:100%;">
-   <iframe id="eplayvideo_vi_tYjbN52n6V3JLxlYHp" 
-            
-		/* Substitua apenas a URL dessa linha */	src="https://streaming.eplaytecnologia.com/tYjbN5/vi_tYjbN52n6V3JLxlYHp/content?v=1683188568896"
-            
-		/* Substitua apenas a URL dessa linha*/	 style="border:none;position:absolute;top:0;left:0;background-size: cover;background-image: url('https://streaming.eplay.video/tYjbN5/vi_tYjbN52n6V3JLxlYHp/thumbnails/poster.jpg?v=64536b2533b36')"
-            
-			allow="accelerometer;gyroscope;encrypted-media;autoplay;picture-in-picture"
-            allowfullscreen=true
-            width="100%"
-            height="100%"
-            frameborder="0"></iframe>
+.headline h1 {
+
+text-align: center;
+padding-top: 1vh;
+padding-bottom: 2vh;
+color: #ffd700;
+line-height: 1.1;
+font-weight: 900;
+false
+}
+@media (max-width: 1200px) {
+.headline-MrKWGi5117209-element h1 {
+font-size: 4.00vw;
+padding-top: 1.5vh;
+padding-bottom: 1.5vh;
+}
+}
+@media (max-width: 640px) {
+.headline-MrKWGi5117209-element h1 {
+font-size: 5.60vw;
+padding-top: 1.5vh;
+padding-bottom: 1.5vh;
+text-align: center;
+}
+}
+ #botao-venda {
+  display: none;
+   position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 20px;
+  margin-bottom: 10px;
+  background-color: #32CD32; /* cor de fundo verde florescente */
+  color: #fff;
+  padding: 20px 40px; /* aumentando o padding para deixar o botão maior */
+  border: none;
+  border-radius: 50px; /* aumentando o raio da borda para tornar o botão mais arredondado */
+  font-size: 28px; /* aumentando o tamanho da fonte */
+}
+</style>
+<div class="headline">
+<h1>
+"Todo Infoprodutor deveria assistir <span style="color:#ffffff"><b>essa VSL de 4 minutos até o final...</b></span>
+</h1>
+</div>
+</div>
+<div style="position:relative;padding-top:56.25%;" id="video"><iframe id="eplayvideo_vi_tYjbN5d8eEA0MKa9s1"    src="https://streaming.eplaytecnologia.com/tYjbN5/vi_tYjbN5d8eEA0MKa9s1/content?v=1683485177273"    style="border:none;position:absolute;top:0;left:0;background-size: cover;background-image: url('https://streaming.eplay.video/tYjbN5/vi_tYjbN5d8eEA0MKa9s1/thumbnails/poster.jpg?v=6457f10163c8b')"    allow="accelerometer;gyroscope;encrypted-media;autoplay;picture-in-picture" allowfullscreen=true width="100%"    height="100%"></iframe></div><div id="div_hash_vi_tYjbN5d8eEA0MKa9s1" style="position:relative;padding-top:2.25%; width:100%;  background-color:#0c1b3e;display:none;z-index: 1000;"></div><script type="text/javascript">window.EPLAY_VIDEO_HASH_ID = "tYjbN5|vi_tYjbN5d8eEA0MKa9s1"; var _xsp__ = document.createElement("script"); _xsp__.src="https://cdn-latam.eplaytecnologia.com/player/js/eplay.runtime.v4.js", _xsp__.async=!0,document.head.appendChild(_xsp__);</script>
+
+     <button id="botao-venda">Comprar agora</button>   <br>
+    </div>
+ </div>
+<div class="description-1657813783037JBeru3">
+<style>
+.description-1657813783037JBeru3-element h3 {
+font-size: 1.32vw;
+text-align: center;
+padding-top: 3vh;
+padding-bottom: 3vh;
+color: #222222;
+line-height: 1.1;
+font-weight: 600;
+false
+}
+@media (max-width: 1200px) {
+.description-1657813783037JBeru3-element h3 {
+font-size: 1.80vw;
+padding-top: 2.25vh;
+padding-bottom: 2.25vh;
+}
+}
+@media (max-width: 640px) {
+.description-1657813783037JBeru3-element h3 {
+font-size: 4.00vw;
+padding-top: 2.25vh;
+padding-bottom: 2.25vh;
+text-align: center;
+}
+}
+</style>
+<div class="description-1657813783037JBeru3-element ">
+<h3>
+<span style="color:#000000"><b>Isso é exatamente o que seu professor de Marketing Digital não te conta!</b></span>
+</h3>
+</div>
+</div>
+<div class="description-16578141835486qxbNr">
+<style>
+.description-16578141835486qxbNr-element h3 {
+font-size: 1.32vw;
+text-align: center;
+padding-top: 3vh;
+padding-bottom: 2vh;
+color: #000000;
+line-height: 1.1;
+font-weight: 400;
+false
+}
+@media (max-width: 1200px) {
+.description-16578141835486qxbNr-element h3 {
+font-size: 1.80vw;
+padding-top: 2.25vh;
+padding-bottom: 1.5vh;
+}
+}
+@media (max-width: 640px) {
+.description-16578141835486qxbNr-element h3 {
+font-size: 4.00vw;
+padding-top: 2.25vh;
+padding-bottom: 1.5vh;
+text-align: center;
+}
+}
+</style>
+<div class="description-16578141835486qxbNr-element ">
+<h3>
+<span class="xl"></span>&nbsp;pessoas assistindo agora...
+</h3>
+</div>
 </div>
 
-        <!-- Adicione o seu iframe do vídeo aqui -->
-    </div>
-
-    <div class="botao-container">
-   <a href="https://pay.kiwify.com.br/MnhbuYX" target="_blank" class="elementor-button-link elementor-button elementor-size-xl elementor-animation-grow" role="button"><button button class="botao-venda btn-animado" id="botao-venda">Comprar Agora!</button></a>
+<!-- Emblemas Emissoras Inicio -->
+<div class="image-EqLngL3832078">
+<style>
+.image-EqLngL3832078-element img {
+display: block;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 0.25vh;
+margin-top: 0.25vh;
+max-width: 100%;
+border-radius: 0;
+border: none;
+}
+@media (max-width: 1200px) {
+.image-EqLngL3832078-element img {
+max-width: 90%;
+}
+}
+@media (max-width: 600px) {
+.image-EqLngL3832078-element img {
+max-width: 100%;
+margin-left:auto;margin-right:auto;
+}
+}
+</style>
+<div class="image-EqLngL3832078-element">
+<img loading="lazy" src="https://img.imageboss.me/atm/cdn/format:auto/u/Y16FP4GBDoTAGD0dVy1wNIjhQbC3/l/YRlwaR3932923.png" alt="">
 </div>
-<script>
-   setTimeout(function(){
-      document.getElementById("botao-venda").style.display = "block";
-   }, 2); // 60000ms = 1 minutos ou 1 segundo = 1000ms
-</script>
+</div>
+</div>
+</div>
+<div class="division-1657814269107__wrapper">
+<style>
+#division-1657814269107 {
+position: relative;
+padding: 3vh 20vw 3vh 20vw;
+background-color: #0c1b3e;
+}
+@media (max-width:1200px) {
+#division-1657814269107 {
+padding: 2.25vh 15vw 2.25vh 15vw;
+}
+}
+@media (max-width:600px) {
+#division-1657814269107 {
+padding: 1.5vh 1.5vw 1.5vh 1.5vw;
+}
+}
+</style>
+<div id="division-1657814269107" class="mgzEHK1340122">
+<style>.px-1{padding-left:4px;padding-right:4px}.pt-0.5{padding-top:2px}.mt-4{margin-top:16px}@media (min-width:640px){.sm\:text-sm{font-size:14px;line-height:20px}}.mt-2{margin-top:8px}.mb-2{margin-bottom:8px}.flex{display:flex}.w-full{width:100%}.space-x-1>:not([hidden])~:not([hidden]){margin-left:.25rem}.items-center{align-items:center}.font-\[Helvetica\]{font-family:Helvetica,Arial,sans-serif}.cursor-pointer{cursor:pointer}.rounded-full{border-radius:99999px}.h-12{height:48px}.w-12{width:48px}.flex-col{flex-direction:column}.py-1{padding-top:4px;padding-bottom:4px}.px-3{padding-left:12px;padding-right:12px}.pl-0\.5,.px-0\.5{padding-left:2px}.rounded-\[18px\]{border-radius:18px}.bg-stone-100{background-color:#f5f5f4}.px-0\.5{padding-right:2px}.font-semibold{font-weight:600}.text-\[\#365899\]{color:#365899}.text-\[13px\]{font-size:13px}.leading-4{line-height:16px}.hover\:underline:hover{text-decoration-line:underline}.text-sm{font-size:14px}.relative{position:relative}.justify-between{justify-content:space-between}.grow{flex-grow:1}.text-xs{font-size:12px}.text-\[\#90949c\]{color:#90949c}.ml-px{margin-left:1px}.gap-1{gap:4px}.w-fit{width:fit-content}.hidden{display:none}.-mt-1{margin-top:-4px}.-mt-2{margin-top:-8px}.mr-2{margin-right:8px}.h-4,.h-5{height:16px}.drop-shadow{--tw-drop-shadow:drop-shadow(0 1px 2px rgba(0, 0, 0, 0.1)) drop-shadow(0 1px 1px rgba(0, 0, 0, 0.06));filter:var(--tw-drop-shadow)}.bg-slate-50{background-color:#0c1b3e}.py-0\.5{padding-top:2px;padding-bottom:2px}.pr-1{padding-right:4px}.block{display:block}.w-4{width:16px}.z-10{z-index:10}.-ml-1{margin-left:-4px}.ml-4{margin-left:16px}.gap-x-0\.5{column-gap:2px}.mr-0\.5{margin-right:2px;margin-left:2px}.border-l{border-left-width:1px}.border-slate-300{border-color:#cbd5e1}.border-dotted{border-style:dotted}.ml-5{margin-left:20px}.h-8{height:32px}.w-8{width:32px}.h-10{height:40px}.w-10{width:40px}@media (min-width:640px){.sm\:w-16{width:64px}.sm\:ml-12{margin-left:48px}}.pl-2{padding-left:8px}</style>
+<div class="fbComments-165781427323944vBC3" style="margin-left:auto;margin-right:auto">
+<style>
+.fbComments-165781427323944vBC3-element {
+padding: 16px;
+border-radius:20px;
+background-color:#fff;
+}
+.fbComments-165781427323944vBC3-element p, .fbComments-165781427323944vBC3-element span {
+font-family: 'Helvetica', 'Arial', sans-serif;
+}
+</style>
+
+<!-- Emblemas Emissoras Fim -->
 
 
-    <div>
-        <!-- Adicione os depoimentos dos clientes aqui -->
-		<div>
-<p class="text-xs sm:text-sm leading-4 font-semibold mb-2" style="font-weight: bold; color: white;">
+
+<div id="testimonials" class="fbComments-165781427323944vBC3-element">
+<p class="text-xs sm:text-sm leading-4 font-semibold mb-2">
 Mostrando 6 comentários
 </p>
 <div class="mb-2">
-  <div class="flex w-full space-x-1 items-center font-[Helvetica]">
-     <div class="flex w-full flex-col py-1 px-3 rounded-[18px] bg-stone-100">
-      <div class="px-0.5 py-1">
-        <p class="font-semibold text-[#365899] text-[13px] leading-4 cursor-pointer hover:underline">
-          Keila Silva
-        </p>
-        <p class="text-sm leading-4 pt-0.5">
-          Estou tão feliz por ter aprendido a modelar produtos! Estou tendo muito sucesso aplicando isso e ganhando dinheiro, obrigada! 😍
-        </p>
-      </div>
-    </div>
-  </div>
-  <div class="flex w-full justify-between">
-    <div class="w-12 sm:w-16"></div>
-    <div class="grow flex gap-1 text-xs pt-0.5">
-      <p class="font-semibold cursor-pointer hover:underline text-[#90949c]">
-        Curtir
-      </p>
+<div class="flex w-full space-x-1 items-center font-[Helvetica]">
+<img src="https://img.imageboss.me/atm/cdn/format:auto/u/Y16FP4GBDoTAGD0dVy1wNIjhQbC3/l/gafoFr4610103.jpeg" class="cursor-pointer rounded-full h-10 w-10">
+<div class="flex w-full flex-col py-1 px-3 rounded-[18px] bg-stone-100">
+<div class="px-0.5 py-1">
+<p class="font-semibold text-[#365899] text-[13px] leading-4 cursor-pointer hover:underline">
+Keila Silva
+</p>
+<p class="text-sm leading-4 pt-0.5">
+Ainda bem que assisti o vídeo até o fim. Pensei que n ia funcionar, mas já perdi 8kg, obrigada 😍
+</p>
+</div>
+</div>
+</div>
+<div class="flex w-full justify-between">
+<div class="w-12 sm:w-16"></div>
+<div class="grow flex gap-1 text-xs pt-0.5">
+<p class="font-semibold cursor-pointer hover:underline text-[#90949c]">
+Curtir
+</p>
+<p class="text-[#90949c]">·</p>
+<p class="font-semibold cursor-pointer hover:underline text-[#90949c]">
+Responder
+</p>
+<p class="text-[#90949c]">·</p>
+<div class="text-[#90949c] flex gap-x-0.5 cursor-pointer hover:underline">
+<p class="text-xs text-[#90949c]">
+3
+</p>
+<p class="text-[#90949c] ">min</p>
+</div>
+</div>
+<div class="-mt-2 mr-2 h-5 flex items-center relative drop-shadow rounded-full bg-slate-50 py-0.5 px-1 w-fit">
+<img class="w-4 block" src="https://img.imageboss.me/atm/cdn/p/l.png">
+<img class="w-4 -ml-1 mr-0.5" src="https://img.imageboss.me/atm/cdn/p/h.png">
+<span class="text-xs text-[#90949c] pt-0.5">
+59
+</span>
+</div>
+</div>
+</div>
+<div class="border-l border-slate-300 border-dotted ml-5 sm:ml-12 pl-2 mb-2">
+<div class="flex w-full space-x-1 items-center">
+<img src="https://img.imageboss.me/atm/cdn/format:auto/u/Y16FP4GBDoTAGD0dVy1wNIjhQbC3/l/ccbBYv9716204.jpeg" class="cursor-pointer rounded-full h-8 w-8">
+<div class="flex w-full flex-col py-1 px-3 rounded-[18px] bg-stone-100">
+<div class="px-0.5 py-1">
+<p class="font-semibold text-[#365899] text-xs cursor-pointer hover:underline">
+Marcia Santos
+</p>
+<p class="text-sm leading-4 pt-0.5">
+Nem acredito que, depois de dois anos finalmente achei algo que realmente funciona, muito obrigada mesmo!!!
+</p>
+</div>
+</div>
+</div>
+<div class="flex w-full justify-between">
+<div class="w-10 sm:w-16"></div>
+<div class="grow flex gap-1 text-xs">
+<p class="font-semibold hover:underline cursor-pointer text-[#90949c]">
+Curtir
+</p>
+<p class="text-[#90949c]">·</p>
+<p class="font-semibold hover:underline cursor-pointer text-[#90949c]">
+Responder
+</p>
+<p class="text-[#90949c]">·</p>
+<div class="text-[#90949c] flex gap-x-0.5 cursor-pointer hover:underline">
+<p class="text-xs text-[#90949c]">
+1
+</p>
+<p class="text-[#90949c] ">min</p>
+</div>
+</div>
+<div class="-mt-2 mr-2 h-5 flex items-center relative drop-shadow rounded-full bg-slate-50 py-0.5 px-1 w-fit">
+<img class="w-4 block" src="https://img.imageboss.me/atm/cdn/p/l.png">
+<img class="w-4 -ml-1 mr-0.5" src="https://img.imageboss.me/atm/cdn/p/h.png">
+<span class="text-xs text-[#90949c] pt-0.5">
+57
+</span>
+</div>
+</div>
+</div>
+<div class="mb-2">
+<div class="flex w-full space-x-1 items-center font-[Helvetica]">
+<img src="https://img.imageboss.me/atm/cdn/format:auto/u/Y16FP4GBDoTAGD0dVy1wNIjhQbC3/l/gYaHcc9743865.jpeg" class="cursor-pointer rounded-full h-10 w-10">
+<div class="flex w-full flex-col py-1 px-3 rounded-[18px] bg-stone-100">
+<div class="px-0.5 py-1">
+<p class="font-semibold text-[#365899] text-[13px] leading-4 cursor-pointer hover:underline">
+Bianca Garica
+</p>
+<p class="text-sm leading-4 pt-0.5">
+Alguém aí de <span class="md"></span> que já testou pode me dizer se funciona???
+</p>
+</div>
+</div>
+</div>
+<div class="flex w-full justify-between">
+<div class="w-12 sm:w-16"></div>
+<div class="grow flex gap-1 text-xs pt-0.5">
+<p class="font-semibold cursor-pointer hover:underline text-[#90949c]">
+Curtir
+</p>
+<p class="text-[#90949c]">·</p>
+<p class="font-semibold cursor-pointer hover:underline text-[#90949c]">
+Responder
+</p>
+<p class="text-[#90949c]">·</p>
+<div class="text-[#90949c] flex gap-x-0.5 cursor-pointer hover:underline">
+<p class="text-xs text-[#90949c]">
+10
+</p>
+<p class="text-[#90949c] ">min</p>
+</div>
+</div>
+<div class="-mt-2 mr-2 h-5 flex items-center relative drop-shadow rounded-full bg-slate-50 py-0.5 px-1 w-fit">
+<img class="w-4 block" src="https://img.imageboss.me/atm/cdn/p/l.png">
+<img class="w-4 -ml-1 mr-0.5" src="https://img.imageboss.me/atm/cdn/p/h.png">
+<span class="text-xs text-[#90949c] pt-0.5">
+33
+</span>
+</div>
+</div>
+</div>
+<div class="border-l border-slate-300 border-dotted ml-5 sm:ml-12 pl-2 mb-2">
+<div class="flex w-full space-x-1 items-center">
+<img src="https://img.imageboss.me/atm/cdn/format:auto/u/Y16FP4GBDoTAGD0dVy1wNIjhQbC3/l/DXYcbr6107100.png" class="cursor-pointer rounded-full h-8 w-8">
+<div class="flex w-full flex-col py-1 px-3 rounded-[18px] bg-stone-100">
+<div class="px-0.5 py-1">
+<p class="font-semibold text-[#365899] text-xs cursor-pointer hover:underline">
+Ana Jullya Ferreira
+</p>
+<p class="text-sm leading-4 pt-0.5">
+Oii Bia simm eu sou de <span class="md"></span>. Nem acredito que, depois de dois anos finalmente achei algo que realmente funciona, me ajudou perdi 22kg obrigado, e ajuda até hoje com essas receitas deliciosas muito obrigada mesmo!!!
+</p>
+</div>
+</div>
+</div>
+<div class="flex w-full justify-between">
+<div class="w-10 sm:w-16"></div>
+<div class="grow flex gap-1 text-xs">
+<p class="font-semibold hover:underline cursor-pointer text-[#90949c]">
+Curtir
+</p>
+<p class="text-[#90949c]">·</p>
+<p class="font-semibold hover:underline cursor-pointer text-[#90949c]">
+Responder
+</p>
+<p class="text-[#90949c]">·</p>
+<div class="text-[#90949c] flex gap-x-0.5 cursor-pointer hover:underline">
+<p class="text-xs text-[#90949c]">
+9
+</p>
+<p class="text-[#90949c] ">min</p>
+</div>
+</div>
+<div class="-mt-2 mr-2 h-5 flex items-center relative drop-shadow rounded-full bg-slate-50 py-0.5 px-1 w-fit">
+<img class="w-4 block" src="https://img.imageboss.me/atm/cdn/p/l.png">
+<img class="w-4 -ml-1 mr-0.5" src="https://img.imageboss.me/atm/cdn/p/h.png">
+<span class="text-xs text-[#90949c] pt-0.5">
+25
+</span>
+</div>
+</div>
+</div>
+<div class="border-l border-slate-300 border-dotted ml-5 sm:ml-12 pl-2 mb-2">
+<div class="flex w-full space-x-1 items-center">
+<img src="https://img.imageboss.me/atm/cdn/format:auto/u/Y16FP4GBDoTAGD0dVy1wNIjhQbC3/l/gYaHcc9743865.jpeg" class="cursor-pointer rounded-full h-8 w-8">
+<div class="flex w-full flex-col py-1 px-3 rounded-[18px] bg-stone-100">
+<div class="px-0.5 py-1">
+<p class="font-semibold text-[#365899] text-xs cursor-pointer hover:underline">
+Bianca Girardi
+</p>
+<p class="text-sm leading-4 pt-0.5">
+Obgda!! Vou testar então 🙏🙏🙏
+</p>
+</div>
+</div>
+</div>
+<div class="flex w-full justify-between">
+<div class="w-10 sm:w-16"></div>
+<div class="grow flex gap-1 text-xs">
+<p class="font-semibold hover:underline cursor-pointer text-[#90949c]">
+Curtir
+</p>
+<p class="text-[#90949c]">·</p>
+<p class="font-semibold hover:underline cursor-pointer text-[#90949c]">
+Responder
+</p>
+<p class="text-[#90949c]">·</p>
+<div class="text-[#90949c] flex gap-x-0.5 cursor-pointer hover:underline">
+<p class="text-xs text-[#90949c]">
+2
+</p>
+<p class="text-[#90949c] ">min</p>
+</div>
+</div>
+<div class="-mt-2 mr-2 h-5 flex items-center relative drop-shadow rounded-full bg-slate-50 py-0.5 px-1 w-fit">
+<img class="w-4 block" src="https://img.imageboss.me/atm/cdn/p/l.png">
+<img class="w-4 -ml-1 mr-0.5" src="https://img.imageboss.me/atm/cdn/p/h.png">
+<span class="text-xs text-[#90949c] pt-0.5">
+120
+</span>
+</div>
+</div>
+</div>
+<div class="mb-2">
+<div class="flex w-full space-x-1 items-center font-[Helvetica]">
+<img src="https://img.imageboss.me/atm/cdn/format:auto/u/Y16FP4GBDoTAGD0dVy1wNIjhQbC3/l/QafnQi6765899.png" class="cursor-pointer rounded-full h-10 w-10">
+<div class="flex w-full flex-col py-1 px-3 rounded-[18px] bg-stone-100">
+<div class="px-0.5 py-1">
+<p class="font-semibold text-[#365899] text-[13px] leading-4 cursor-pointer hover:underline">
+Cláudia Miranda
+</p>
+<p class="text-sm leading-4 pt-0.5">
+Realmente funciona, minha barriga tem diminuído a cada dia. Obrigada por compartilhar 🥰
+</p>
+</div>
+</div>
+</div>
+<div class="flex w-full justify-between">
+<div class="w-12 sm:w-16"></div>
+<div class="grow flex gap-1 text-xs pt-0.5">
+<p class="font-semibold cursor-pointer hover:underline text-[#90949c]">
+Curtir
+</p>
+<p class="text-[#90949c]">·</p>
+<p class="font-semibold cursor-pointer hover:underline text-[#90949c]">
+Responder
+</p>
+<p class="text-[#90949c]">·</p>
+<div class="text-[#90949c] flex gap-x-0.5 cursor-pointer hover:underline">
+<p class="text-xs text-[#90949c]">
+33
+</p>
+<p class="text-[#90949c] ">min</p>
+</div>
+</div>
+<div class="-mt-2 mr-2 h-5 flex items-center relative drop-shadow rounded-full bg-slate-50 py-0.5 px-1 w-fit">
+<img class="w-4 block" src="https://img.imageboss.me/atm/cdn/p/l.png">
+<img class="w-4 -ml-1 mr-0.5" src="https://img.imageboss.me/atm/cdn/p/h.png">
+<span class="text-xs text-[#90949c] pt-0.5">
+123
+</span>
+</div>
+</div>
+</div>
+<p class="text-xs sm:text-sm leading-4 font-semibold mt-4" style="color:#555;text-align:center;">
+Você precisa estar logado para comentar.
+</p>
+</div>
+</div>
+</div>
+</div>
+<div class="division-1657814825221__wrapper">
+<style>
+#division-1657814825221 {
+position: relative;
+padding: 4vh 20vw 4vh 20vw;
+background-color: #222222;
+}
+@media (max-width:1200px) {
+#division-1657814825221 {
+padding: 3vh 15vw 3vh 15vw;
+}
+}
+@media (max-width:600px) {
+#division-1657814825221 {
+padding: 3.75vh 1.5vw 3.75vh 1.5vw;
+}
+}
+</style>
+<div id="division-1657814825221" class="XPzyCz1340137">
+<div class="footer-1657814831958Q4sQ3C">
+<style>
+.footer-1657814831958Q4sQ3C-element {
+text-align: center;
+font-size: 1.20vw;
+color: #ffffff;
+}
+.footer-1657814831958Q4sQ3C-element a {
+padding: 0 !important;
+color: #ffffff !important;
+}
+@media (max-width:1200px) {
+.footer-1657814831958Q4sQ3C-element {
+text-align: center;
+font-size: 1.95vw;
+color: #ffffff;
+}
+}
+@media (max-width:640px) {
+.footer-1657814831958Q4sQ3C-element {
+text-align: center;
+font-size: 3.30vw;
+color: #ffffff;
+}
+}
+</style>
+<footer class="footer-1657814831958Q4sQ3C-element">
+<p><strong>Copyright 2023 – Truque da Banana ®</strong></p>
+<p style="margin-top:4px;">Todos os Direitos Reservados</p>
+<div style="display:flex;align-items:center;justify-content:center;margin-top:24px;">
+<a id="t" style="margin-right:12px" href="#" target="_blank">
+Termos de Uso
+</a> <span style="margin-right:12px">·</span>
+<a id="p" href="#" target="_blank">
+Privacidade
+</a>
+</div>
+<p style="margin-top:24px;">
+</p>
+<script>
+          const pr = window.location.href + "/privacidade",
+            te = window.location.href + "/termos";
+            document.getElementById("p").setAttribute("href", pr), document.getElementById("t").setAttribute("href", te);
+</script>
+</footer></div>
+</div>
+</div>
+<script src="js/gYDRBY1376270.js" charset="utf-8"></script>
+ <script>
+      /* Código JavaScript para exibir o botão de venda após x segundos de carga da página */
+      var botaoVenda = document.getElementById('botao-venda');
+      var tempoExibicaoBotao = 5; // exibe o botão após 5 segundos
+
+      setTimeout(function() {
+        botaoVenda.style.display = 'block';
+      }, tempoExibicaoBotao * 1000);
+    </script>
+</body>
+</html>
       <p class="text-[#90949c]">·</p>
       <p class="font-semibold cursor-pointer hover:underline text-[#90949c]">
         Responder
